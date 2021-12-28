@@ -1,0 +1,215 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+body {
+    margin:0;
+    font-family: Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    vertical-align: bottom;
+}
+
+.header-logo-site-title {
+    font-size: 36px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.header-logo-site-title::after {
+    content: '';
+    height: 90%;
+    border-left: 1px solid darkgray;
+    position: absolute;
+    right: 10px;
+}
+
+.header-logo-site-source {
+    font-size: 12px;
+    color: darkgray;
+}
+
+.header-nav-list {
+    display: flex;
+    padding: 0px 30px;
+}
+
+.header-nav-list-item {
+    list-style-type: none;
+    background: #ECECEC;
+    color: darkgray;
+    padding: 12px 18px;
+    font-size: 14px;
+    margin: 0 1px;
+}
+
+a.header-nav-list-item-link {
+    color: black;
+    background: #ECECEC;
+}
+
+.header-nav-list-item.active {
+    background: #E24E2A;
+}
+
+.header-nav-list-item.active a {
+    background: #E24E2A;
+    color: white;
+}
+
+/* // */
+
+.intro-img {
+    width: 100%;
+}
+
+.intro-img img{
+    height: 100%;
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.intro-content {
+    text-align: center;
+    background: #E24E2A;
+    padding: 80px 160px;
+    color: #F5C7B2;
+    margin-top: -10px;
+}
+
+.intro-content-text {
+    line-height: 38px;
+}
+
+.intro-content-text a {
+    color: white;
+}
+
+/* // */
+
+.benefits {
+    background: #383838;
+    padding: 70px 40px;
+    display: flex;
+}
+
+.benefit {
+    margin: 0px 12px;
+    text-align: center;
+}
+
+.benefit-img {
+    background: #E24E2A;
+    padding: 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.benefit-img i{
+   font-size: 45px;
+    color: white;
+}
+
+.benefit-title {
+    color: white;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.benefit-title::after {
+    content:'';
+    width: 100%;
+    border-bottom: 1px solid #596366;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+}
+
+.benefit-text {
+    color: #596366;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* // */
+
+.info {
+    background: white;
+    margin: 50px 100px;
+    text-align: center;
+    line-height: 8px;
+}
+
+.info-title {
+    color: #696969;
+}
+
+.info-text {
+    color: #B8B2AF;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #1B9772;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 9px;
+    padding: 10px 20px;
+}
+
+/* // */
+
+.skills {
+    background: #383838;
+    display: flex;
+    align-items: center;
+    padding: 90px 50px;
+    text-align: center;
+}
+
+.skill {
+    margin: 0 10px;
+}
+.skill-title {
+    color: white;
+    font-weight: normal;
+    padding-bottom: 20px ;
+}
+
+.skill-text {
+    color: #565452;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0px 60px;
+}
+
+/* // */
+
+.footer {
+    background: #1B9772;
+    text-align: center;
+}
+
+.footer p {
+    color: #8AC7A9;
+    font-size: 10px;
+    padding: 80px 200px;
+    margin-top: -10px
+}
